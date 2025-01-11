@@ -6,6 +6,7 @@ import FriendList from "./components/FriendList/FriendList"; // Импорт к�
 import userData from "./userData.json";
 import friends from "./friends.json";
 
+
 const App = () => (
   <div>
     {/* Компонент Profile */}
