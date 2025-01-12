@@ -1,11 +1,14 @@
-import React from "react"; // Импорт React
-import Profile from "./components/Profile/Profile"; // Импорт компонента Profile
-import FriendList from "./components/FriendList/FriendList"; // Импорт компонента FriendList
+import React from "react"; 
+import Profile from "./components/FriendList/Profile/Profile";
+import FriendList from "./components/FriendList/FriendList"; 
+import TransactionHistory from "./components/TransactionHistory/TransactionHistory";
 
 // Импорт данных
 import userData from "./userData.json";
 import friends from "./friends.json";
+import transaction from "./transactions.json";
 
+import "./App.css";
 
 const App = () => (
   <div>
